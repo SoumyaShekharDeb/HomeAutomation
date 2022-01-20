@@ -26,7 +26,7 @@ public class pushPull2 {
 		}
 		driver.get("https://www.sugarcrm.com/au/request-demo/");
 		driver.manage().window().maximize();
-		driver.close();
+		
 
 }
 }
