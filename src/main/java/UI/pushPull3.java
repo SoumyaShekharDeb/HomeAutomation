@@ -25,7 +25,7 @@ public class pushPull3 {
 			driver = new FirefoxDriver();
 		}
 		driver.get("https://www.sugarcrm.com/au/request-demo/");
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); //maximizing takes some time
 		driver.close();
 
 }
